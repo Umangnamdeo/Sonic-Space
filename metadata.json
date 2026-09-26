@@ -1,0 +1,6 @@
+{
+  "name": "SonicSpace",
+  "description": "Professional browser-native spatial audio workstation. Shape sound, sculpt acoustic environments, and process audio in real-time.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
