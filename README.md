@@ -1,4 +1,3 @@
-```markdown
 # 🪐 Sonic Space
 
 **Sonic Space** is an interactive, browser-based 3D spatial audio playground and mixing console built with the modern Web Audio API[cite: 1]. It allows producers, sound designers, and developers to position audio sources in virtual acoustic environments with real-time analog EQ, spatial panning, and room reverb modeling[cite: 1].
@@ -53,7 +52,6 @@
 git clone [https://github.com/umangnamdeo/Sonic-Space.git](https://github.com/umangnamdeo/Sonic-Space.git)
 cd Sonic-Space
 
-```
 
 ### 2. Run locally
 
