@@ -1,40 +1,62 @@
 # 🪐 Sonic Space
 
-**Sonic Space** is an interactive, browser-based 3D spatial audio playground and mixing console built with the modern Web Audio API[cite: 1]. It allows producers, sound designers, and developers to position audio sources in virtual acoustic environments with real-time analog EQ, spatial panning, and room reverb modeling[cite: 1].
+**Sonic Space** is an interactive, browser-based 3D spatial audio playground and mixing console built with the modern Web Audio API. It allows producers, sound designers, and developers to position audio sources in virtual acoustic environments with real-time analog EQ, spatial panning, and room reverb modeling.
 
-🔗 **Live Demo:** [https://umangnamdeo.github.io/Sonic-Space/](https://umangnamdeo.github.io/Sonic-Space/)[cite: 1]
+🔗 **Live Demo:** [https://umangnamdeo.github.io/Sonic-Space/](https://umangnamdeo.github.io/Sonic-Space/)[cite: 1, 2]
+
+---
+
+## 📸 Preview
+
+![Sonic Space Interface](./assets/screenshot.png)
 
 ---
 
 ## ✨ Features
 
 ### 🎧 3D Spatial Audio & Positioning
-* **Interactive Polar Soundstage:** Drag and place audio sources dynamically around a central listener across a 4-meter radius[cite: 1].
-* **Azimuth, Distance & Elevation Controls:** Real-time feedback for angle ($\theta^\circ$), distance ($m$), and $Z$-axis elevation ($\pm Z$)[cite: 1].
-* **HRTF Panning:** Natural spatial depth and directional perception driven by Web Audio spatial panner nodes[cite: 1].
+* **Interactive Polar Soundstage:** Drag and place audio sources dynamically around a central listener across a 4-meter radius.
+* **Azimuth, Distance & Elevation Controls:** Real-time feedback for angle ($\theta^\circ$), distance ($m$), and $Z$-axis elevation ($\pm Z$).
+* **HRTF Panning:** Natural spatial depth and directional perception driven by Web Audio spatial panner nodes.
 
 ### 🎚️ Analog EQ & Preamp Section
-* **Input Gain Control:** Clean pre-stage gain staging with decibel readouts[cite: 1].
+* **Input Gain Control:** Clean pre-stage gain staging with decibel readouts.
 * **3-Band Parametric Equalizer:**
-  * **Low Shelf:** Punch and sub-bass shaping ($\pm\text{dB}$)[cite: 1].
-  * **Sweepable Mid:** Dedicated frequency sweep ($200\text{ Hz} - 5\text{ kHz}$) and gain control[cite: 1].
-  * **High Shelf:** Air and presence tone adjustment ($\pm\text{dB}$)[cite: 1].
+  * **Low Shelf:** Punch and sub-bass shaping ($\pm\text{dB}$).
+  * **Sweepable Mid:** Dedicated frequency sweep ($200\text{ Hz} - 5\text{ kHz}$) and gain control.
+  * **High Shelf:** Air and presence tone adjustment ($\pm\text{dB}$).
 
 ### 🏛️ Acoustic Space & Reverb Engine
 * **Acoustic Environment Presets:** Instant acoustic profiles:
-  * `Control` · `Symphonic` · `Gothic` · `Concrete` · `Vintage` · `Anechoic`[cite: 1]
+  * `Control` · `Symphonic` · `Gothic` · `Concrete` · `Vintage` · `Anechoic`
 * **Fine-Tuning Controls:**
-  * **RT60 Decay:** Acoustic decay time adjustment ($s$)[cite: 1].
-  * **Room Size:** Virtual acoustic chamber dimensions ($m$)[cite: 1].
-  * **Reflections:** Early reflection density percentage[cite: 1].
-  * **Reverb Mix:** Dry/Wet balance control[cite: 1].
+  * **RT60 Decay:** Acoustic decay time adjustment ($s$)[cite: 1, 2].
+  * **Room Size:** Virtual acoustic chamber dimensions ($m$)[cite: 1, 2].
+  * **Reflections:** Early reflection density percentage[cite: 1, 2].
+  * **Reverb Mix:** Dry/Wet balance control[cite: 1, 2].
 
 ### 🎵 Playback & File Support
-* **Multi-Format Audio Loader:** Supports drag-and-drop or file upload for `WAV`, `MP3`, `FLAC`, `OGG`, and `M4A` (up to 60 MB)[cite: 1].
-* **Built-in Presets:** Quick auditioning with bundled sample audio tracks[cite: 1].
-* **Transport Controls:** Play/Pause, Loop toggle, Return-to-zero, and high-precision timeline scrubber[cite: 1].
+* **Multi-Format Audio Loader:** Supports drag-and-drop or file upload for `WAV`, `MP3`, `FLAC`, `OGG`, and `M4A` (up to 60 MB)[cite: 1, 2].
+* **Built-in Presets:** Quick auditioning with bundled sample audio tracks[cite: 1, 2].
+* **Transport Controls:** Play/Pause, Loop toggle, Return-to-zero, and high-precision timeline scrubber[cite: 1, 2].
 
 ---
+
+## 🛠️ Tech Stack
+
+* **Audio Core:** Web Audio API (`AudioContext`, `PannerNode`, `BiquadFilterNode`, `ConvolverNode` / algorithmic reverb)[cite: 1, 2]
+* **Frontend:** HTML5 / CSS3 / Modern JavaScript (ESNext) / TypeScript[cite: 1, 2]
+* **UI & Visuals:** HTML5 Canvas / SVG for polar coordinate radar & analog dials[cite: 1, 2]
+* **Deployment:** GitHub Pages[cite: 1, 2]
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/umangnamdeo/Sonic-Space.git](https://github.com/umangnamdeo/Sonic-Space.git)
+cd Sonic-Space
 
 ## 🛠️ Tech Stack
 
