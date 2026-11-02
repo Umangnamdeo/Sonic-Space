@@ -8,7 +8,8 @@
 
 ## 📸 Preview
 
-![Sonic Space Interface](./assets/screenshot.png)
+<img width="1347" height="711" alt="screenshot" src="https://github.com/user-attachments/assets/fcc045d9-b57a-4261-a8a9-97000c24ca24" />
+
 
 ---
 
